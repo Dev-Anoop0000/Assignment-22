@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    list-style: none;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+body {
+    background: rgb(24, 23, 23);
+}
+
+.container {
+    padding: 0 11%;
+}
+
+
+/* --------------- Header Part CSS ------------  */
+
+header nav {
+    /* background-color: gray; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+header nav ul {
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    margin-left: 2.5rem;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header nav button {
+    background-color: rgb(40, 38, 38);
+    padding: 1rem 2rem;
+    font-size: 22px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px rgb(38, 37, 37);
+}
+
+
+/* ------------- Main Part ---------  */
+
+
+/* ----------- Left Side design ----------  */
+
+main {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+main .left img {
+    position: relative;
+    top: -150px;
+    left: -100px;
+}
+
+
+/* ------- main Right part ----------- */
+
+main .right #on-ear {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+main .right h1 {
+    padding: 1rem 0;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main .right h3 {
+    font-size: 30px;
+    padding: 2rem 0;
+}
+
+main .right p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 1rem 0;
+}
+
+main .right button {
+    background-color: rgb(32, 29, 29);
+    width: 22rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: -3px 3px 3px rgb(42, 41, 41);
+}
+
+main .right button img {
+    background-color: rgb(32, 29, 29);
+}
+
+main .right button span {
+    background-color: rgb(32, 29, 29);
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ---------- Logo Row Style ----------  */
+
+.logo-row {
+    margin: 1rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* ------------ Spacs Logo ---------  */
+
+.spacs-row {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+/* ----------- Spacs section down ----------  */
+
+.spacs {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* ---------- Spacs Left Down ---------------- */
+
+.spacs .left-spacs {
+    width: 20%;
+}
+
+.spacs .left-spacs .bt,
+.mic {
+    left: -20px;
+}
+
+.spacs .left-spacs .battary,
+.charger {
+    left: -60px;
+}
+
+.spacs .left-spacs .feature {
+    position: relative;
+    margin: 2rem;
+}
+
+.spacs .left-spacs .feature img,
+h3,
+h4 {
+    margin-bottom: .5rem;
+}
+
+.spacs .left-spacs .feature h3 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.spacs .left-spacs .feature h4 {
+    font-weight: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ---------- Spacs Right Down --------------- */
+
+.spacs .right-spacs {
+    padding: 1rem 2rem;
+}
+
+
+/* ----------- Case section --------  */
+
+.case {
+    margin: 3rem 1rem;
+    text-align: center;
+}
+
+
+/* ----------- Case Item ---------  */
+
+.case-item {
+    display: flex;
+    align-items: center;
+}
+
+.case-item .left-item {
+    width: 50%;
+    padding: 2rem;
+    text-align: right;
+}
+
+.case-item .right-item {
+    width: 50%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.case-item .right-item p {
+    width: 40%;
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+
+.case-item .right-item button {
+    background-color: rgb(44, 42, 42);
+    margin: 2rem 0;
+    width: 40%;
+    font-size: 25px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -5px 5px 3px rgb(37, 36, 36);
+}
+
+.case-item .right-item button img,
+#More-info {
+    background-color: rgb(44, 42, 42);
+}
+
+
+/* -------------- Headphone Section --------- */
+
+.headphone {
+    background-color: rgb(31, 37, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    border-radius: 20px;
+}
+
+.headphone .left-headphone h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    width: 70%;
+    padding: 5% 0;
+    line-height: 50px;
+}
+
+.headphone .left-headphone p {
+    background-color: rgb(31, 37, 31);
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.headphone .left-headphone button {
+    background-color: #000000;
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0;
+    border-radius: 10px;
+}
+
+.headphone .left-headphone button img,
+#buy-now {
+    background-color: #000000;
+    font-size: 18px;
+}
+
+
+/* ------------- Choose Your Style -----------  */
+
+.choose {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ----------- Product Card Section -----------  */
+
+.card-section {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.card-section .card {
+    background-color: #323030;
+    width: 160px;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 12rem;
+}
+
+.card-section .card .card-logo {
+    width: 120px;
+    position: relative;
+    top: -75px;
+    left: 5px;
+}
+
+.card-section .card .name-plate {
+    position: relative;
+    top: -60px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-section .card .name-plate #card-shop-logo {
+    background-color: #0d0d0d;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+/* ----------- Footer Section ----------  */
+
+footer {
+    padding: 2rem 2.5rem;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr 3fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-card {
+    position: static;
+    padding: 1rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer .footer-card #beat-logo {
+    width: 40px;
+    margin-top: 8px;
+    position: relative;
+    left: 70%;
+}
+
+footer .footer-card a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+footer .footer-card .anchor-btn {
+    padding: 5px;
+    width: fit-content;
+}
+
+footer .footer-card .anchor-btn:hover {
+    background-color: #2c2a2a;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+footer #social-email {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+footer #social-email #email-box {
+    background-color: #323030;
+    padding: 5px;
+    width: 80%;
+    height: 25%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer #social-email #email-box input {
+    background-color: #332828;
+    padding: 0 5px;
+    font-size: 22px;
+    width: 60%;
+    height: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+footer #social-email #email-box #subscribe {
+    background-color: #323030;
+    width: 60%;
+    height: 100%;
+    padding: 5px 18px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+}
+
+footer #social-email #email-box #subscribe #arrow {
+    width: 28px;
+}
+
+footer #social-email #social-media {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+footer #social-email #social-media a {
+    margin: 0 2rem 0 0;
+}
+
+footer #social-email #social-media a .media-icon {
+    width: 40px;
+}
+
+footer #arrow-card {
+    display: flex;
+    align-items: end;
+}
+
+
+/* ---------- Developer Name Card ---------  */
+
+#marquee {
+    padding: 5px;
+    margin: 2rem 0;
+    display: flex;
+}
+
+#marquee marquee {
+    margin: 0 10%;
+}
+
+#marquee marquee .dev-name {
+    width: 12rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
